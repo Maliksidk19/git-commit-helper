@@ -1,0 +1,40 @@
+{
+  "name": "@maliksidk19/git-commit-helper",
+  "type": "module",
+  "version": "1.0.4",
+  "main": "build/index.js",
+  "bin": {
+    "git-commit-helper": "build/index.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@Maliksidk19",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "inquirer": "^12.6.1"
+  },
+  "author": "Saad",
+  "license": "MIT",
+  "description": "A CLI tool to help with git commit messages",
+  "keywords": [
+    "git",
+    "commit",
+    "helper",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maliksidk19/git-commit-helper.git"
+  }
+}
